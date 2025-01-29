@@ -1,0 +1,1683 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e82fc08969a438ba79b8330174510b64 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Locate the Folium Leaflet map instance
+        var leafletMap = Object.values(window).find(o => o instanceof L.Map);
+
+        leafletMap.on('click', function(e) {
+            // Add a default marker at the clicked location
+            var marker = L.marker(e.latlng).addTo(leafletMap);
+            console.log("Lat: " + e.latlng.lat + ", Lng: " + e.latlng.lng);
+        });
+    });
+</script>
+    
+            <div class="folium-map" id="map_e82fc08969a438ba79b8330174510b64" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e82fc08969a438ba79b8330174510b64 = L.map(
+                "map_e82fc08969a438ba79b8330174510b64",
+                {
+                    center: [-16.9, 145.7],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1ef3fd6d3007fd56ce78d804ba88a5d7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1ef3fd6d3007fd56ce78d804ba88a5d7.addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var marker_dd87d52dfcdbf5d15a64a0b8f8cd1d19 = L.marker(
+                [-16.383517, 145.57095],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_21c0a561d863588554fff45dd5867305 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dd87d52dfcdbf5d15a64a0b8f8cd1d19.setIcon(icon_21c0a561d863588554fff45dd5867305);
+        
+    
+        var popup_4f718847db984de7ce74807868f044d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_caed6dbaf2f6bbbf46068ccee870c5cf = $(`<div id="html_caed6dbaf2f6bbbf46068ccee870c5cf" style="width: 100.0%; height: 100.0%;">LOW ISLANDS REEF</div>`)[0];
+                popup_4f718847db984de7ce74807868f044d7.setContent(html_caed6dbaf2f6bbbf46068ccee870c5cf);
+            
+        
+
+        marker_dd87d52dfcdbf5d15a64a0b8f8cd1d19.bindPopup(popup_4f718847db984de7ce74807868f044d7)
+        ;
+
+        
+    
+    
+            var marker_6f830c00a90238001ffcf24bf37be711 = L.marker(
+                [-16.775317, 145.98045],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_08c4da356419d4e867288507e9cdf6ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6f830c00a90238001ffcf24bf37be711.setIcon(icon_08c4da356419d4e867288507e9cdf6ab);
+        
+    
+        var popup_4e34835a3791f7f0324475ced6ac36a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22b9795ea6a4fe2c20afd4c03b515089 = $(`<div id="html_22b9795ea6a4fe2c20afd4c03b515089" style="width: 100.0%; height: 100.0%;">GREEN ISLAND REEF</div>`)[0];
+                popup_4e34835a3791f7f0324475ced6ac36a9.setContent(html_22b9795ea6a4fe2c20afd4c03b515089);
+            
+        
+
+        marker_6f830c00a90238001ffcf24bf37be711.bindPopup(popup_4e34835a3791f7f0324475ced6ac36a9)
+        ;
+
+        
+    
+    
+            var marker_1514ae04da2dcf5916475d78f2842cd2 = L.marker(
+                [-16.92315, 145.993133],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_9da8f64edda1b8d86e0ed92508229fe1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1514ae04da2dcf5916475d78f2842cd2.setIcon(icon_9da8f64edda1b8d86e0ed92508229fe1);
+        
+    
+        var popup_c8f7b43f223f756ce2483c183d3744dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7a04d264112b0cde9fc185f5b4b31ae = $(`<div id="html_b7a04d264112b0cde9fc185f5b4b31ae" style="width: 100.0%; height: 100.0%;">FITZROY ISLAND REEF</div>`)[0];
+                popup_c8f7b43f223f756ce2483c183d3744dc.setContent(html_b7a04d264112b0cde9fc185f5b4b31ae);
+            
+        
+
+        marker_1514ae04da2dcf5916475d78f2842cd2.bindPopup(popup_c8f7b43f223f756ce2483c183d3744dc)
+        ;
+
+        
+    
+    
+            var marker_e6b6c382d9dc52fba02374d7049f6e2a = L.marker(
+                [-16.042633, 145.65455],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_9dd4a5ba6b5557ce987187f4df9efd09 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e6b6c382d9dc52fba02374d7049f6e2a.setIcon(icon_9dd4a5ba6b5557ce987187f4df9efd09);
+        
+    
+        var popup_c6fa7aaef649ae331f9878805cf89a6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73e9adf0371287819bb575b749c58f0b = $(`<div id="html_73e9adf0371287819bb575b749c58f0b" style="width: 100.0%; height: 100.0%;">MACKAY REEF</div>`)[0];
+                popup_c6fa7aaef649ae331f9878805cf89a6b.setContent(html_73e9adf0371287819bb575b749c58f0b);
+            
+        
+
+        marker_e6b6c382d9dc52fba02374d7049f6e2a.bindPopup(popup_c6fa7aaef649ae331f9878805cf89a6b)
+        ;
+
+        
+    
+    
+            var marker_8c3491d5f336cbcaed1db82e645a15d1 = L.marker(
+                [-16.49935, 146.022667],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_8cab2f73d6dee75dd8eae2b0edb41b69 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8c3491d5f336cbcaed1db82e645a15d1.setIcon(icon_8cab2f73d6dee75dd8eae2b0edb41b69);
+        
+    
+        var popup_ae2013e0bd5235044d88ce53f80a23c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_718c7b391b04c3e947ce531ae7aa30a6 = $(`<div id="html_718c7b391b04c3e947ce531ae7aa30a6" style="width: 100.0%; height: 100.0%;">HASTINGS REEF</div>`)[0];
+                popup_ae2013e0bd5235044d88ce53f80a23c6.setContent(html_718c7b391b04c3e947ce531ae7aa30a6);
+            
+        
+
+        marker_8c3491d5f336cbcaed1db82e645a15d1.bindPopup(popup_ae2013e0bd5235044d88ce53f80a23c6)
+        ;
+
+        
+    
+    
+            var marker_61cb144e7c544b4a64f8af70ec4f1c99 = L.marker(
+                [-16.54865, 146.05],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_515f602f00f236a15613a0c5973384c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_61cb144e7c544b4a64f8af70ec4f1c99.setIcon(icon_515f602f00f236a15613a0c5973384c0);
+        
+    
+        var popup_e01082d6ba6e7f80379a21044f7029a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49c9ff46c788f0e93212233586853333 = $(`<div id="html_49c9ff46c788f0e93212233586853333" style="width: 100.0%; height: 100.0%;">MICHAELMAS REEF</div>`)[0];
+                popup_e01082d6ba6e7f80379a21044f7029a5.setContent(html_49c9ff46c788f0e93212233586853333);
+            
+        
+
+        marker_61cb144e7c544b4a64f8af70ec4f1c99.bindPopup(popup_e01082d6ba6e7f80379a21044f7029a5)
+        ;
+
+        
+    
+    
+            var marker_4f2056b4d26c95ceea21cc7c68911351 = L.marker(
+                [-16.7988, 146.198117],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_e8d9385df8ff91a7264fed43e8f61031 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4f2056b4d26c95ceea21cc7c68911351.setIcon(icon_e8d9385df8ff91a7264fed43e8f61031);
+        
+    
+        var popup_ea07e4711c6ed68635f6c2d06ff6dc1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99c677ad10019a2511e1d65a85ed4180 = $(`<div id="html_99c677ad10019a2511e1d65a85ed4180" style="width: 100.0%; height: 100.0%;">THETFORD REEF</div>`)[0];
+                popup_ea07e4711c6ed68635f6c2d06ff6dc1a.setContent(html_99c677ad10019a2511e1d65a85ed4180);
+            
+        
+
+        marker_4f2056b4d26c95ceea21cc7c68911351.bindPopup(popup_ea07e4711c6ed68635f6c2d06ff6dc1a)
+        ;
+
+        
+    
+    
+            var marker_6904851c66d6c918d20d8b609293dd27 = L.marker(
+                [-16.038383, 145.868767],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_c5e564c5c20f234d9462397791dc510f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6904851c66d6c918d20d8b609293dd27.setIcon(icon_c5e564c5c20f234d9462397791dc510f);
+        
+    
+        var popup_c2434d9f8ddc211856d616ecffe3ace5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_735b9c19adc34cdffe5485cd2fee4f51 = $(`<div id="html_735b9c19adc34cdffe5485cd2fee4f51" style="width: 100.0%; height: 100.0%;">AGINCOURT REEFS (NO 1)</div>`)[0];
+                popup_c2434d9f8ddc211856d616ecffe3ace5.setContent(html_735b9c19adc34cdffe5485cd2fee4f51);
+            
+        
+
+        marker_6904851c66d6c918d20d8b609293dd27.bindPopup(popup_c2434d9f8ddc211856d616ecffe3ace5)
+        ;
+
+        
+    
+    
+            var marker_8e139fba82c5ed2f4edcdb39efb17641 = L.marker(
+                [-16.071583, 145.84515],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_58ebd56590d604f8217302a406460688 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8e139fba82c5ed2f4edcdb39efb17641.setIcon(icon_58ebd56590d604f8217302a406460688);
+        
+    
+        var popup_ac89ca915c0e3d8c3efc8ef3f36d2938 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_970c31df19bce8c6adbe21f979a88e3c = $(`<div id="html_970c31df19bce8c6adbe21f979a88e3c" style="width: 100.0%; height: 100.0%;">ST CRISPIN REEF</div>`)[0];
+                popup_ac89ca915c0e3d8c3efc8ef3f36d2938.setContent(html_970c31df19bce8c6adbe21f979a88e3c);
+            
+        
+
+        marker_8e139fba82c5ed2f4edcdb39efb17641.bindPopup(popup_ac89ca915c0e3d8c3efc8ef3f36d2938)
+        ;
+
+        
+    
+    
+            var marker_a2ca898dd88d9ac2d62d9cfcccb45771 = L.marker(
+                [-23.249567, 151.94255],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_807246d59c3db52777231f9ca0862b16 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a2ca898dd88d9ac2d62d9cfcccb45771.setIcon(icon_807246d59c3db52777231f9ca0862b16);
+        
+    
+        var popup_83a81e235ed56f2ecce788a896695de4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50441ceb629a951937122f2034bc7e81 = $(`<div id="html_50441ceb629a951937122f2034bc7e81" style="width: 100.0%; height: 100.0%;">BROOMFIELD REEF</div>`)[0];
+                popup_83a81e235ed56f2ecce788a896695de4.setContent(html_50441ceb629a951937122f2034bc7e81);
+            
+        
+
+        marker_a2ca898dd88d9ac2d62d9cfcccb45771.bindPopup(popup_83a81e235ed56f2ecce788a896695de4)
+        ;
+
+        
+    
+    
+            var marker_73acd2827f56c809b31d9206c96063f2 = L.marker(
+                [-23.317217, 151.976233],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_223b4474a129c68cfde8185b38fd035b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_73acd2827f56c809b31d9206c96063f2.setIcon(icon_223b4474a129c68cfde8185b38fd035b);
+        
+    
+        var popup_58f02205d61d75ececbf388f88573494 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_714b070697534d5d0ee7e1b0a6720dff = $(`<div id="html_714b070697534d5d0ee7e1b0a6720dff" style="width: 100.0%; height: 100.0%;">WRECK ISLAND REEF</div>`)[0];
+                popup_58f02205d61d75ececbf388f88573494.setContent(html_714b070697534d5d0ee7e1b0a6720dff);
+            
+        
+
+        marker_73acd2827f56c809b31d9206c96063f2.bindPopup(popup_58f02205d61d75ececbf388f88573494)
+        ;
+
+        
+    
+    
+            var marker_824322e7808370e5c1faf03812c2544c = L.marker(
+                [-23.48365, 152.088783],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_12855e5e97ac30a14c3ca35d01fbc986 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_824322e7808370e5c1faf03812c2544c.setIcon(icon_12855e5e97ac30a14c3ca35d01fbc986);
+        
+    
+        var popup_d813415cf94a2607b6e1805eed1084df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_485ba40c8148c1bcc9f6dd53c25e9a8e = $(`<div id="html_485ba40c8148c1bcc9f6dd53c25e9a8e" style="width: 100.0%; height: 100.0%;">ONE TREE REEF</div>`)[0];
+                popup_d813415cf94a2607b6e1805eed1084df.setContent(html_485ba40c8148c1bcc9f6dd53c25e9a8e);
+            
+        
+
+        marker_824322e7808370e5c1faf03812c2544c.bindPopup(popup_d813415cf94a2607b6e1805eed1084df)
+        ;
+
+        
+    
+    
+            var marker_ca3f7592ce9f39300719f350cd7cfade = L.marker(
+                [-23.8835, 152.419783],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_50ba79b1954c97ec11134eeb8b4dde16 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ca3f7592ce9f39300719f350cd7cfade.setIcon(icon_50ba79b1954c97ec11134eeb8b4dde16);
+        
+    
+        var popup_24c9bcb46944da102acd3dfbdf362bf0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ebf8dc383005782f78604e414fe02fa = $(`<div id="html_1ebf8dc383005782f78604e414fe02fa" style="width: 100.0%; height: 100.0%;">LADY MUSGRAVE REEF</div>`)[0];
+                popup_24c9bcb46944da102acd3dfbdf362bf0.setContent(html_1ebf8dc383005782f78604e414fe02fa);
+            
+        
+
+        marker_ca3f7592ce9f39300719f350cd7cfade.bindPopup(popup_24c9bcb46944da102acd3dfbdf362bf0)
+        ;
+
+        
+    
+    
+            var marker_11e30150b839585a3ab2c8eca124c1b6 = L.marker(
+                [-14.7553, 145.372233],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_4f9539f6bbe60a5b39d1e90610a8e959 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_11e30150b839585a3ab2c8eca124c1b6.setIcon(icon_4f9539f6bbe60a5b39d1e90610a8e959);
+        
+    
+        var popup_90addad59ad2938a6a83eeeff6920682 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94dbc3f297445f10f9691a1100d70fdd = $(`<div id="html_94dbc3f297445f10f9691a1100d70fdd" style="width: 100.0%; height: 100.0%;">MARTIN REEF(14123)</div>`)[0];
+                popup_90addad59ad2938a6a83eeeff6920682.setContent(html_94dbc3f297445f10f9691a1100d70fdd);
+            
+        
+
+        marker_11e30150b839585a3ab2c8eca124c1b6.bindPopup(popup_90addad59ad2938a6a83eeeff6920682)
+        ;
+
+        
+    
+    
+            var marker_44a328889797c30f4b5fefc8653bc754 = L.marker(
+                [-14.785167, 145.355167],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_b343d70eb5b0ab27cd711f49523cab0b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_44a328889797c30f4b5fefc8653bc754.setIcon(icon_b343d70eb5b0ab27cd711f49523cab0b);
+        
+    
+        var popup_8829d11d03475a23e7fea4e00aef12cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_611accc2f3db27714576a8b1cdf6a433 = $(`<div id="html_611accc2f3db27714576a8b1cdf6a433" style="width: 100.0%; height: 100.0%;">LINNET REEF</div>`)[0];
+                popup_8829d11d03475a23e7fea4e00aef12cc.setContent(html_611accc2f3db27714576a8b1cdf6a433);
+            
+        
+
+        marker_44a328889797c30f4b5fefc8653bc754.bindPopup(popup_8829d11d03475a23e7fea4e00aef12cc)
+        ;
+
+        
+    
+    
+            var marker_b661441f4a8b8910dcab71d83a07b992 = L.marker(
+                [-14.648333, 145.491],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_67862dd9971b24d7c2c02295dbc9f851 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b661441f4a8b8910dcab71d83a07b992.setIcon(icon_67862dd9971b24d7c2c02295dbc9f851);
+        
+    
+        var popup_ea0e434465295a05b8371f2ed079c874 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4917ceafc1461c276ed70b44091b0cd5 = $(`<div id="html_4917ceafc1461c276ed70b44091b0cd5" style="width: 100.0%; height: 100.0%;">MACGILLIVRAY REEF</div>`)[0];
+                popup_ea0e434465295a05b8371f2ed079c874.setContent(html_4917ceafc1461c276ed70b44091b0cd5);
+            
+        
+
+        marker_b661441f4a8b8910dcab71d83a07b992.bindPopup(popup_ea0e434465295a05b8371f2ed079c874)
+        ;
+
+        
+    
+    
+            var marker_67f652c66428f03ef8e3e5cbb530e116 = L.marker(
+                [-14.691467, 145.469233],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_c2dda5ff9942675483428e7fbc6e2bdf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_67f652c66428f03ef8e3e5cbb530e116.setIcon(icon_c2dda5ff9942675483428e7fbc6e2bdf);
+        
+    
+        var popup_cd9a2ab49c8d6562d30e7a0d718dea18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6c23d874379b4d2676709772e56483c = $(`<div id="html_b6c23d874379b4d2676709772e56483c" style="width: 100.0%; height: 100.0%;">LIZARD ISLAND</div>`)[0];
+                popup_cd9a2ab49c8d6562d30e7a0d718dea18.setContent(html_b6c23d874379b4d2676709772e56483c);
+            
+        
+
+        marker_67f652c66428f03ef8e3e5cbb530e116.bindPopup(popup_cd9a2ab49c8d6562d30e7a0d718dea18)
+        ;
+
+        
+    
+    
+            var marker_505ec92a10fd57b7f0b8a429fd296aa9 = L.marker(
+                [-14.74355, 145.515767],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_526d4fbf1c6d18e45eb8fd60f217726a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_505ec92a10fd57b7f0b8a429fd296aa9.setIcon(icon_526d4fbf1c6d18e45eb8fd60f217726a);
+        
+    
+        var popup_721f6c558fa14e2616d614e6899c4607 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4d396022ceacf92dd9006df04531228 = $(`<div id="html_a4d396022ceacf92dd9006df04531228" style="width: 100.0%; height: 100.0%;">NORTH DIRECTION REEF</div>`)[0];
+                popup_721f6c558fa14e2616d614e6899c4607.setContent(html_a4d396022ceacf92dd9006df04531228);
+            
+        
+
+        marker_505ec92a10fd57b7f0b8a429fd296aa9.bindPopup(popup_721f6c558fa14e2616d614e6899c4607)
+        ;
+
+        
+    
+    
+            var marker_ea26e3089e9dd819c1aacfad9f7495b5 = L.marker(
+                [-14.523517, 145.581983],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_4d3df982c7882a2fc18d7aed3bbeb6df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ea26e3089e9dd819c1aacfad9f7495b5.setIcon(icon_4d3df982c7882a2fc18d7aed3bbeb6df);
+        
+    
+        var popup_b2d51f3b64c4b47aa385060dc9ff38c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06a885bd46f88458e65502989db6e297 = $(`<div id="html_06a885bd46f88458e65502989db6e297" style="width: 100.0%; height: 100.0%;">CARTER REEF</div>`)[0];
+                popup_b2d51f3b64c4b47aa385060dc9ff38c2.setContent(html_06a885bd46f88458e65502989db6e297);
+            
+        
+
+        marker_ea26e3089e9dd819c1aacfad9f7495b5.bindPopup(popup_b2d51f3b64c4b47aa385060dc9ff38c2)
+        ;
+
+        
+    
+    
+            var marker_1111f383a17c478295cc75f9cf183d58 = L.marker(
+                [-14.570117, 145.618267],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_8607b87c42b35ead6c41ce84cc6c9a41 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1111f383a17c478295cc75f9cf183d58.setIcon(icon_8607b87c42b35ead6c41ce84cc6c9a41);
+        
+    
+        var popup_401d3c7fb74ea4764f56b14acb79baf6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea40fc3500c04e521280b8e7eb2987ae = $(`<div id="html_ea40fc3500c04e521280b8e7eb2987ae" style="width: 100.0%; height: 100.0%;">YONGE REEF</div>`)[0];
+                popup_401d3c7fb74ea4764f56b14acb79baf6.setContent(html_ea40fc3500c04e521280b8e7eb2987ae);
+            
+        
+
+        marker_1111f383a17c478295cc75f9cf183d58.bindPopup(popup_401d3c7fb74ea4764f56b14acb79baf6)
+        ;
+
+        
+    
+    
+            var marker_87c8ddce622a34531976050e8ea1677b = L.marker(
+                [-14.627867, 145.645333],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_52025a041a91ff309477b02b23cfa485 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_87c8ddce622a34531976050e8ea1677b.setIcon(icon_52025a041a91ff309477b02b23cfa485);
+        
+    
+        var popup_aad10970f8a049e46c2f1f3e2fb7dacf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5165555240e6943bb4b851c710bf2579 = $(`<div id="html_5165555240e6943bb4b851c710bf2579" style="width: 100.0%; height: 100.0%;">NO NAME REEF</div>`)[0];
+                popup_aad10970f8a049e46c2f1f3e2fb7dacf.setContent(html_5165555240e6943bb4b851c710bf2579);
+            
+        
+
+        marker_87c8ddce622a34531976050e8ea1677b.bindPopup(popup_aad10970f8a049e46c2f1f3e2fb7dacf)
+        ;
+
+        
+    
+    
+            var marker_676bc0a47002753cb39fcae4778dbdf0 = L.marker(
+                [-21.862583, 152.18695],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_45223e475507b2797262ac2a3aeabd3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_676bc0a47002753cb39fcae4778dbdf0.setIcon(icon_45223e475507b2797262ac2a3aeabd3b);
+        
+    
+        var popup_3da1acb78380053e3164cc440e36074d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68194455b20cec10c7f20786846db8c4 = $(`<div id="html_68194455b20cec10c7f20786846db8c4" style="width: 100.0%; height: 100.0%;">21529S</div>`)[0];
+                popup_3da1acb78380053e3164cc440e36074d.setContent(html_68194455b20cec10c7f20786846db8c4);
+            
+        
+
+        marker_676bc0a47002753cb39fcae4778dbdf0.bindPopup(popup_3da1acb78380053e3164cc440e36074d)
+        ;
+
+        
+    
+    
+            var marker_72a97b0cf8845f881cf4d87094d4cb2b = L.marker(
+                [-21.975817, 152.479717],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_523612b1ac308494a22aabfbb5775702 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_72a97b0cf8845f881cf4d87094d4cb2b.setIcon(icon_523612b1ac308494a22aabfbb5775702);
+        
+    
+        var popup_894457c919162aff21aaaafce85c24de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7515f454b23803a4a8f5721b95839c9 = $(`<div id="html_c7515f454b23803a4a8f5721b95839c9" style="width: 100.0%; height: 100.0%;">GANNETT CAY REEF</div>`)[0];
+                popup_894457c919162aff21aaaafce85c24de.setContent(html_c7515f454b23803a4a8f5721b95839c9);
+            
+        
+
+        marker_72a97b0cf8845f881cf4d87094d4cb2b.bindPopup(popup_894457c919162aff21aaaafce85c24de)
+        ;
+
+        
+    
+    
+            var marker_b72c7656bd685902c9b46a8f254b562c = L.marker(
+                [-22.023733, 152.1958],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_535f1b3cf6073b1a7316e7223048153e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b72c7656bd685902c9b46a8f254b562c.setIcon(icon_535f1b3cf6073b1a7316e7223048153e);
+        
+    
+        var popup_12d6c92244c11f2493c4a95aa5c831a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_045ad1128760f0561276fa6089dd1df2 = $(`<div id="html_045ad1128760f0561276fa6089dd1df2" style="width: 100.0%; height: 100.0%;">SNAKE (22088)</div>`)[0];
+                popup_12d6c92244c11f2493c4a95aa5c831a5.setContent(html_045ad1128760f0561276fa6089dd1df2);
+            
+        
+
+        marker_b72c7656bd685902c9b46a8f254b562c.bindPopup(popup_12d6c92244c11f2493c4a95aa5c831a5)
+        ;
+
+        
+    
+    
+            var marker_92b3bab045f9a8167ee5d1173b3ca8d7 = L.marker(
+                [-21.99795, 152.668567],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_4a90546ed860a4a566e9e7b7299aae56 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_92b3bab045f9a8167ee5d1173b3ca8d7.setIcon(icon_4a90546ed860a4a566e9e7b7299aae56);
+        
+    
+        var popup_838d35d588f2ed91c1c95d1f12d7a2c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aba5a6d9d3268cd17da0bf7aae41cded = $(`<div id="html_aba5a6d9d3268cd17da0bf7aae41cded" style="width: 100.0%; height: 100.0%;">CHINAMAN REEF(22102)</div>`)[0];
+                popup_838d35d588f2ed91c1c95d1f12d7a2c5.setContent(html_aba5a6d9d3268cd17da0bf7aae41cded);
+            
+        
+
+        marker_92b3bab045f9a8167ee5d1173b3ca8d7.bindPopup(popup_838d35d588f2ed91c1c95d1f12d7a2c5)
+        ;
+
+        
+    
+    
+            var marker_6b2fc7e55976dadc09c4fb26bc04e269 = L.marker(
+                [-22.022867, 152.619233],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_84641cecf147ab7baf315b3564087090 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6b2fc7e55976dadc09c4fb26bc04e269.setIcon(icon_84641cecf147ab7baf315b3564087090);
+        
+    
+        var popup_7a8169ced2d3ad40688030727bcc6e7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92337c69dc901555c317929c29a01d59 = $(`<div id="html_92337c69dc901555c317929c29a01d59" style="width: 100.0%; height: 100.0%;">HORSESHOE</div>`)[0];
+                popup_7a8169ced2d3ad40688030727bcc6e7c.setContent(html_92337c69dc901555c317929c29a01d59);
+            
+        
+
+        marker_6b2fc7e55976dadc09c4fb26bc04e269.bindPopup(popup_7a8169ced2d3ad40688030727bcc6e7c)
+        ;
+
+        
+    
+    
+            var marker_a143453ba613a95a4a8b45f61d9da7a7 = L.marker(
+                [-21.469817, 152.5665],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_d800fd48eaaea28aa6616252c57d35d0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a143453ba613a95a4a8b45f61d9da7a7.setIcon(icon_d800fd48eaaea28aa6616252c57d35d0);
+        
+    
+        var popup_caa8720f2bb5fd5a95320492d2a5ff38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff3179f6ddb259951ed624f10ba0a350 = $(`<div id="html_ff3179f6ddb259951ed624f10ba0a350" style="width: 100.0%; height: 100.0%;">EAST CAY REEF</div>`)[0];
+                popup_caa8720f2bb5fd5a95320492d2a5ff38.setContent(html_ff3179f6ddb259951ed624f10ba0a350);
+            
+        
+
+        marker_a143453ba613a95a4a8b45f61d9da7a7.bindPopup(popup_caa8720f2bb5fd5a95320492d2a5ff38)
+        ;
+
+        
+    
+    
+            var marker_c7d0e860d339c66aabb67e1cab94fa09 = L.marker(
+                [-21.703067, 152.560433],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_355f08569b17306bf790d699843123c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c7d0e860d339c66aabb67e1cab94fa09.setIcon(icon_355f08569b17306bf790d699843123c5);
+        
+    
+        var popup_e5fbbe2fbb01f754a1e91f08f0737974 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68a4b53771ff5509750dc63565cae32a = $(`<div id="html_68a4b53771ff5509750dc63565cae32a" style="width: 100.0%; height: 100.0%;">TURNER REEF</div>`)[0];
+                popup_e5fbbe2fbb01f754a1e91f08f0737974.setContent(html_68a4b53771ff5509750dc63565cae32a);
+            
+        
+
+        marker_c7d0e860d339c66aabb67e1cab94fa09.bindPopup(popup_e5fbbe2fbb01f754a1e91f08f0737974)
+        ;
+
+        
+    
+    
+            var marker_ce55d0268e753c99ae1aa14296aa59cf = L.marker(
+                [-18.8125, 146.427417],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_3ef41c226c867d22f65a93b6365cd05f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ce55d0268e753c99ae1aa14296aa59cf.setIcon(icon_3ef41c226c867d22f65a93b6365cd05f);
+        
+    
+        var popup_3023ccb1897c71aea7a787e4ca330589 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d8772d3b47eb21726afc9be6a290266 = $(`<div id="html_0d8772d3b47eb21726afc9be6a290266" style="width: 100.0%; height: 100.0%;">PANDORA REEF</div>`)[0];
+                popup_3023ccb1897c71aea7a787e4ca330589.setContent(html_0d8772d3b47eb21726afc9be6a290266);
+            
+        
+
+        marker_ce55d0268e753c99ae1aa14296aa59cf.bindPopup(popup_3023ccb1897c71aea7a787e4ca330589)
+        ;
+
+        
+    
+    
+            var marker_1eefbd5501c28ff813ce43c19ebc7d45 = L.marker(
+                [-18.471817, 146.87865],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_ec5943f5b551113dc96239321597f325 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1eefbd5501c28ff813ce43c19ebc7d45.setIcon(icon_ec5943f5b551113dc96239321597f325);
+        
+    
+        var popup_acc9f07aa14e9a76a0e5ca097fecc989 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e00723825213ec34f7948f12accaab0 = $(`<div id="html_9e00723825213ec34f7948f12accaab0" style="width: 100.0%; height: 100.0%;">RIB REEF</div>`)[0];
+                popup_acc9f07aa14e9a76a0e5ca097fecc989.setContent(html_9e00723825213ec34f7948f12accaab0);
+            
+        
+
+        marker_1eefbd5501c28ff813ce43c19ebc7d45.bindPopup(popup_acc9f07aa14e9a76a0e5ca097fecc989)
+        ;
+
+        
+    
+    
+            var marker_9854bb54cb699a63a48ce13a90649538 = L.marker(
+                [-18.618817, 147.081467],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_cac4f387deaf17f9e8e9d444fbe52ca4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9854bb54cb699a63a48ce13a90649538.setIcon(icon_cac4f387deaf17f9e8e9d444fbe52ca4);
+        
+    
+        var popup_f43e84e712e93551211dededeafab870 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbe2a9960dcfc153b117cdaf485b13fb = $(`<div id="html_fbe2a9960dcfc153b117cdaf485b13fb" style="width: 100.0%; height: 100.0%;">JOHN BREWER REEF</div>`)[0];
+                popup_f43e84e712e93551211dededeafab870.setContent(html_fbe2a9960dcfc153b117cdaf485b13fb);
+            
+        
+
+        marker_9854bb54cb699a63a48ce13a90649538.bindPopup(popup_f43e84e712e93551211dededeafab870)
+        ;
+
+        
+    
+    
+            var marker_1b215f0a24e97c30e3fb4eb67bd07bfe = L.marker(
+                [-18.806, 147.668617],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_cf6ced63d52d4581ed295049ded48bf7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1b215f0a24e97c30e3fb4eb67bd07bfe.setIcon(icon_cf6ced63d52d4581ed295049ded48bf7);
+        
+    
+        var popup_624bf2562f32e833d514c5d00bd21c16 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67f3f822e35154438cd4ab64c5732733 = $(`<div id="html_67f3f822e35154438cd4ab64c5732733" style="width: 100.0%; height: 100.0%;">DAVIES REEF</div>`)[0];
+                popup_624bf2562f32e833d514c5d00bd21c16.setContent(html_67f3f822e35154438cd4ab64c5732733);
+            
+        
+
+        marker_1b215f0a24e97c30e3fb4eb67bd07bfe.bindPopup(popup_624bf2562f32e833d514c5d00bd21c16)
+        ;
+
+        
+    
+    
+            var marker_eafa9debe5c0f458da5961e159b47d60 = L.marker(
+                [-18.257167, 147.381267],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_2673ce42c78b0d83a2c9c69487284dcc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_eafa9debe5c0f458da5961e159b47d60.setIcon(icon_2673ce42c78b0d83a2c9c69487284dcc);
+        
+    
+        var popup_07131073e15f79f5878d19f47bba1b52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_563040280d1c6df7411a10eb2de71a36 = $(`<div id="html_563040280d1c6df7411a10eb2de71a36" style="width: 100.0%; height: 100.0%;">MYRMIDON REEF</div>`)[0];
+                popup_07131073e15f79f5878d19f47bba1b52.setContent(html_563040280d1c6df7411a10eb2de71a36);
+            
+        
+
+        marker_eafa9debe5c0f458da5961e159b47d60.bindPopup(popup_07131073e15f79f5878d19f47bba1b52)
+        ;
+
+        
+    
+    
+            var marker_0fd0989774237977ec83df33698f85a6 = L.marker(
+                [-18.399867, 147.4519],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_3f1e336a09b8981cdebc9f51b1d6b4ac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0fd0989774237977ec83df33698f85a6.setIcon(icon_3f1e336a09b8981cdebc9f51b1d6b4ac);
+        
+    
+        var popup_b3c46b1a7de923a9567d29769d0b6ba6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bf39c5cc91719ac692dea8b928df95b = $(`<div id="html_9bf39c5cc91719ac692dea8b928df95b" style="width: 100.0%; height: 100.0%;">DIP REEF</div>`)[0];
+                popup_b3c46b1a7de923a9567d29769d0b6ba6.setContent(html_9bf39c5cc91719ac692dea8b928df95b);
+            
+        
+
+        marker_0fd0989774237977ec83df33698f85a6.bindPopup(popup_b3c46b1a7de923a9567d29769d0b6ba6)
+        ;
+
+        
+    
+    
+            var marker_b3d502d5b3bc867528a2db0d77787f72 = L.marker(
+                [-18.652117, 147.7217],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_5afe51a9baf6fa528f8b5040e98f4108 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b3d502d5b3bc867528a2db0d77787f72.setIcon(icon_5afe51a9baf6fa528f8b5040e98f4108);
+        
+    
+        var popup_a74da78ff219012f151f1cb9996f68da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_372044fc4560b636db577fcacf760784 = $(`<div id="html_372044fc4560b636db577fcacf760784" style="width: 100.0%; height: 100.0%;">CHICKEN REEF</div>`)[0];
+                popup_a74da78ff219012f151f1cb9996f68da.setContent(html_372044fc4560b636db577fcacf760784);
+            
+        
+
+        marker_b3d502d5b3bc867528a2db0d77787f72.bindPopup(popup_a74da78ff219012f151f1cb9996f68da)
+        ;
+
+        
+    
+    
+            var marker_02e8fca0f327a6ee22db1a4c6c360fab = L.marker(
+                [-20.056983, 148.8994],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_6d6661982a84272aaa930d29e2b0723b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_02e8fca0f327a6ee22db1a4c6c360fab.setIcon(icon_6d6661982a84272aaa930d29e2b0723b);
+        
+    
+        var popup_0d0ba250975e29aac10a876180b34692 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f233dc1f00a982c107e05f4bcb040d23 = $(`<div id="html_f233dc1f00a982c107e05f4bcb040d23" style="width: 100.0%; height: 100.0%;">HAYMAN ISLAND REEF</div>`)[0];
+                popup_0d0ba250975e29aac10a876180b34692.setContent(html_f233dc1f00a982c107e05f4bcb040d23);
+            
+        
+
+        marker_02e8fca0f327a6ee22db1a4c6c360fab.bindPopup(popup_0d0ba250975e29aac10a876180b34692)
+        ;
+
+        
+    
+    
+            var marker_759c4c7b206cfe3f657db83bfd075afb = L.marker(
+                [-20.07795, 148.873833],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_785bed773a1f4390d694f34c2ff8141f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_759c4c7b206cfe3f657db83bfd075afb.setIcon(icon_785bed773a1f4390d694f34c2ff8141f);
+        
+    
+        var popup_6e1b1654f52162841ef3fa159c6a11ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_167be9d298faaa44c07665bbe4e804d3 = $(`<div id="html_167be9d298faaa44c07665bbe4e804d3" style="width: 100.0%; height: 100.0%;">LANGFORD-BIRD REEF</div>`)[0];
+                popup_6e1b1654f52162841ef3fa159c6a11ae.setContent(html_167be9d298faaa44c07665bbe4e804d3);
+            
+        
+
+        marker_759c4c7b206cfe3f657db83bfd075afb.bindPopup(popup_6e1b1654f52162841ef3fa159c6a11ae)
+        ;
+
+        
+    
+    
+            var marker_3819821e5bc0ca1c51e8b988ee8b835a = L.marker(
+                [-20.175317, 149.035717],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_61ea7dc6b250e49bb58282bbb4d84910 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3819821e5bc0ca1c51e8b988ee8b835a.setIcon(icon_61ea7dc6b250e49bb58282bbb4d84910);
+        
+    
+        var popup_00ef23d3790590bf6240966224f422ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2bdfafe18568d14d7b61140831f5290a = $(`<div id="html_2bdfafe18568d14d7b61140831f5290a" style="width: 100.0%; height: 100.0%;">BORDER ISLAND REEF (NO 1)</div>`)[0];
+                popup_00ef23d3790590bf6240966224f422ec.setContent(html_2bdfafe18568d14d7b61140831f5290a);
+            
+        
+
+        marker_3819821e5bc0ca1c51e8b988ee8b835a.bindPopup(popup_00ef23d3790590bf6240966224f422ec)
+        ;
+
+        
+    
+    
+            var marker_cef4af50d327971a7cef80d73f3d9b84 = L.marker(
+                [-19.76625, 149.380333],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_f9abe60c4a5f081179f4c3ef320ed30c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cef4af50d327971a7cef80d73f3d9b84.setIcon(icon_f9abe60c4a5f081179f4c3ef320ed30c);
+        
+    
+        var popup_07de3c43c7518d33d928d9ba7cbd0cec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74a0f060e3124d8e37dd19b41c3f5221 = $(`<div id="html_74a0f060e3124d8e37dd19b41c3f5221" style="width: 100.0%; height: 100.0%;">19131S</div>`)[0];
+                popup_07de3c43c7518d33d928d9ba7cbd0cec.setContent(html_74a0f060e3124d8e37dd19b41c3f5221);
+            
+        
+
+        marker_cef4af50d327971a7cef80d73f3d9b84.bindPopup(popup_07de3c43c7518d33d928d9ba7cbd0cec)
+        ;
+
+        
+    
+    
+            var marker_af2c0f28707ddeed7306939ff6a3dcb8 = L.marker(
+                [-19.806867, 149.430467],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_b12263b044df6b1dee8f7574ab72fe48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_af2c0f28707ddeed7306939ff6a3dcb8.setIcon(icon_b12263b044df6b1dee8f7574ab72fe48);
+        
+    
+        var popup_75f54fa43638b8c1f200c4b8e1ecfaa2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a09331520d5c297158844eea88877b49 = $(`<div id="html_a09331520d5c297158844eea88877b49" style="width: 100.0%; height: 100.0%;">19138S</div>`)[0];
+                popup_75f54fa43638b8c1f200c4b8e1ecfaa2.setContent(html_a09331520d5c297158844eea88877b49);
+            
+        
+
+        marker_af2c0f28707ddeed7306939ff6a3dcb8.bindPopup(popup_75f54fa43638b8c1f200c4b8e1ecfaa2)
+        ;
+
+        
+    
+    
+            var marker_69b1ef18a7553c52b1770ddc9d58c964 = L.marker(
+                [-20.029433, 149.6951],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_236f01e391482515a1509ff7a319fbca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_69b1ef18a7553c52b1770ddc9d58c964.setIcon(icon_236f01e391482515a1509ff7a319fbca);
+        
+    
+        var popup_19e3ec666d6a1b5e1bf9224916ae40ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f69c61080e28a306f4e4a282a0f9bba2 = $(`<div id="html_f69c61080e28a306f4e4a282a0f9bba2" style="width: 100.0%; height: 100.0%;">20104S</div>`)[0];
+                popup_19e3ec666d6a1b5e1bf9224916ae40ff.setContent(html_f69c61080e28a306f4e4a282a0f9bba2);
+            
+        
+
+        marker_69b1ef18a7553c52b1770ddc9d58c964.bindPopup(popup_19e3ec666d6a1b5e1bf9224916ae40ff)
+        ;
+
+        
+    
+    
+            var marker_7049cc98c898fcb58f2e922f046ee8d3 = L.marker(
+                [-19.66285, 149.915167],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_aa670f6191b6f700c0f1e52dac8f3a68 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7049cc98c898fcb58f2e922f046ee8d3.setIcon(icon_aa670f6191b6f700c0f1e52dac8f3a68);
+        
+    
+        var popup_90ecc17fc5fbff0b573d9d7866ee4bd8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d953839c9c36306b07a1bc1a123bff0 = $(`<div id="html_8d953839c9c36306b07a1bc1a123bff0" style="width: 100.0%; height: 100.0%;">SLATE REEF</div>`)[0];
+                popup_90ecc17fc5fbff0b573d9d7866ee4bd8.setContent(html_8d953839c9c36306b07a1bc1a123bff0);
+            
+        
+
+        marker_7049cc98c898fcb58f2e922f046ee8d3.bindPopup(popup_90ecc17fc5fbff0b573d9d7866ee4bd8)
+        ;
+
+        
+    
+    
+            var marker_3832188ca75e83565f80b529762d6853 = L.marker(
+                [-19.738717, 150.0808],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_93c599a8e41c8de07aef9d6690ff3d43 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3832188ca75e83565f80b529762d6853.setIcon(icon_93c599a8e41c8de07aef9d6690ff3d43);
+        
+    
+        var popup_57d4923fa4ddfb7d85afe569b75cf14b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba1b5d4a97fc3f13eacb92a0eab0c299 = $(`<div id="html_ba1b5d4a97fc3f13eacb92a0eab0c299" style="width: 100.0%; height: 100.0%;">HYDE REEF</div>`)[0];
+                popup_57d4923fa4ddfb7d85afe569b75cf14b.setContent(html_ba1b5d4a97fc3f13eacb92a0eab0c299);
+            
+        
+
+        marker_3832188ca75e83565f80b529762d6853.bindPopup(popup_57d4923fa4ddfb7d85afe569b75cf14b)
+        ;
+
+        
+    
+    
+            var marker_ff55fdb6727668ed9e8927d72eb48e53 = L.marker(
+                [-19.791917, 150.16125],
+                {
+}
+            ).addTo(map_e82fc08969a438ba79b8330174510b64);
+        
+    
+            var icon_cf2c084cb2b1a4a67fc2e5afd32f1a46 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ff55fdb6727668ed9e8927d72eb48e53.setIcon(icon_cf2c084cb2b1a4a67fc2e5afd32f1a46);
+        
+    
+        var popup_eb23559bf5257373b10c84979e9a7084 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05730e5b45e65e6774d9b6bc38e39be1 = $(`<div id="html_05730e5b45e65e6774d9b6bc38e39be1" style="width: 100.0%; height: 100.0%;">REBE REEF</div>`)[0];
+                popup_eb23559bf5257373b10c84979e9a7084.setContent(html_05730e5b45e65e6774d9b6bc38e39be1);
+            
+        
+
+        marker_ff55fdb6727668ed9e8927d72eb48e53.bindPopup(popup_eb23559bf5257373b10c84979e9a7084)
+        ;
+
+        
+    
+</script>
+</html>
