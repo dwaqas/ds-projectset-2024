@@ -4,7 +4,7 @@ This is a complete set of all the data science projects I underwent in the 2024 
 
 Some of these projects may be part of the *Graduate Certificate of Data Science* course administered by *Harvard Extension School* which I completed at the end of the year, and may be labelled as such. Notebooks are provided as HTML to avoid any potential knitting issues, while reports, reviews and other documentation may be provided as PDFs. I may also include the source Python Notebook (IPYNB) files as well.
 
-## <span style="color: blue">Spatio-Temporal Time Series Modelling</span>
+## $${\color{blue}Spatio-Temporal Time Series Modelling}$$
 **With a Focus on Coral Reef Benthic Group Shifting in the Great Barrier Reef**
 
 I started off this project to tackle a fairly obscure and unexplored topic: *understanding and predicting shifts in **coral reef benthic cover** using data-driven approaches*. This was also my attempt to try and “handle” a much larger and unoptimised dataset. The data, initially provided at yearly intervals, represented the distribution of coral reef covers *(specifically **hard coral cover**, **soft coral cover** and **algae cover**)* across various reef systems throughout the Great Barrier Reef; due to the massive ecological size of the reef, I made an assumption that there would be distinct temporal patterns based on the spatial location that the data was sampled from. This was the basis of a study that was not just focused on fitting **time series**, but also on building a **spatio-temporal model** that would take those location-based dependencies into account.
@@ -22,13 +22,13 @@ The data was compiled from the **AIMS** and **eReefs platform**, both of which a
 
 **DATA COLLECTION DIRECTORY:** *`./"Coral Benthic Shifts with ST-GNNs - PyTorch"/"Data Collection"`*
 
-## <span style="color: blue">Dynamic HyperParameter Optimisation with Optuna</span>
+## $${\color{blue}Dynamic HyperParameter Optimisation with Optuna}$$
 
 This is a quick project centred around exploring how institutions and researchers may approach hyper parameter optimisation in cases of high model and system complexities, especially since traditional approaches such as **Grid Search** and **Random Search** present some notable limitations. **Grid Search**, while exhaustive, becomes *computationally expensive* as the number of hyperparameters (and their potential combinations) increases. On the other hand, **Random Search** provides a more efficient alternative but lacks systematic exploration, making it unreliable in *scenarios where it is important to understand the “thought process” behind reaching a set criteria of optimised hyperparameters* (think of industries such as quantitative trading, healthcare, etc). To address these challenges, a more dynamic and adaptive solution was required. This project is in the form of a report paired with some visualisations, and explores the effectiveness of **Optuna** and how it addresses the limitations of the traditional methods.
 
 **MAIN PROJECT DIRECTORY:** *`./"Dynamic Hyperparameter Optimisation with Optuna"`*
 
-## <span style="color: blue">Research Paper Reviews</span>
+## $${\color{blue}Research Paper Reviews}$$
 
 **COURSE:** These papers were done as part of the *Graduate Certificate of Data Science* course administered by *Harvard Extension School*, specifically the *CSCI E-82* course, finished on *Dec 2024 with Certficiate awarded in Jan 2025*.
 
